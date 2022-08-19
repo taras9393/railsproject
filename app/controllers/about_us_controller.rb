@@ -4,6 +4,6 @@ class AboutUsController < ApplicationController
   end
 
   def find_us
-
-  end  
+    @names = ["bob", "john", "pip", "jack", "mary"]
+  end
 end
